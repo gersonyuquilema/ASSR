@@ -88,7 +88,7 @@ ul {
 
 nav ul li {
   font-size: 150%;
-  display: inline-block;
+  display: block;
   float: left;
   padding: 10px;
 }
@@ -187,7 +187,6 @@ footer {
   float: left;
   width: 60%;
   padding: 4% 4% 2% 0;
-  font-size:
 }
 
 .footer-nav {
@@ -235,7 +234,10 @@ footer.second p, .second a {
   font-size: 160%;
   line-height: 155%;
 }
-
+i.fa.fa-emi{
+  display:inline-block;
+  padding: 0%;
+}
 @media screen and (max-width: 768px) {
   p {
     font-size: 130%;
